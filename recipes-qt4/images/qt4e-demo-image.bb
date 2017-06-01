@@ -9,5 +9,7 @@ IMAGE_INSTALL += "\
 	packagegroup-core-qt4e \
 "
 
+IMAGE_ROOTFS_SIZE = "3984588"
+
 inherit core-image
 
