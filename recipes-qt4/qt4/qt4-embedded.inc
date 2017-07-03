@@ -19,7 +19,7 @@ QT_EMBEDDED_FLAGS ?= " \
     -qtlibinfix ${QT_LIBINFIX} \
 "
 QT_EMBEDDED_EXTRA_FLAGS ?= " \
-    -plugin-gfx-transformed -plugin-gfx-qvfb -plugin-gfx-vnc \
+    -qt-gfx-transformed -plugin-gfx-qvfb -plugin-gfx-vnc \
     -qt-mouse-pc -qt-mouse-qvfb -qt-mouse-linuxinput \
     -qt-kbd-tty -qt-kbd-linuxinput ${PACKAGECONFIG_CONFARGS} \
 "
